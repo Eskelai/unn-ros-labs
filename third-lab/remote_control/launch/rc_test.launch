@@ -1,0 +1,4 @@
+<launch>
+	<node name="turtle1" pkg="turtlesim" type="turtlesim_node" output="screen"/>
+	<node name="test_turtle" pkg="remote_control" type="rc_node" output="screen" launch-prefix="xterm -e"/>
+</launch>
