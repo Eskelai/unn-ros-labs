@@ -18,7 +18,7 @@
 В отчете достаточно скрины с запуском в терминале и появившемся окошком
 
 В плане практики указана след. команда для запуска `source ./devel/setup.bash && roslaunch remote_control rc_test.launch`, но она выдаёт ошибку
-Рабочая команда: `roslaunch remote_control/launch/rc_test.launch`
+Рабочая команда: `source ./devel/setup.bash && roslaunch remote_control/launch/rc_test.launch`
 
 # Fourth ROS lab
 Отчёт делать по аналогии с тем, что он у себя в доке показывает. По сути просто пошаговый набор скринов
@@ -28,9 +28,8 @@
 `source ./devel/setup.bash`
 `export TURTLEBOT3_MODEL=waffle_pi`
 
-В дополнение к его туториалу:
+У меня тут целая сборная солянка была из разных реп, иначе не запускалось
 Кроме тех реп, которые он у себя в отчете юзает я еще скачивал в https://github.com/ROBOTIS-GIT/turtlebot3 `fourth-lab/catkin_ws/src/turtlebot3`
-Скорее всего куча всего лишнего, но без этого чёт не поднималось
 
 ROS пакет который ставили в самом начале походу имеет не всё что нужно. Доставляем
 
